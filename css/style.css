@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+body {
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+    list-style-type: none;
+}
+.tareas {
+    background-color: #E8C07D;
+    border-radius: 5px;
+}
+.tareas-title {
+    display: flex;
+    justify-content: center;
+}
+.landing-img {
+    width: 100%;
+}
+nav {
+    background-color: #ffffff;
+    border-bottom: 1px solid rgba(191, 191, 191, 0.454);
+    margin-bottom: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.nav {
+    display: flex;
+    justify-content: baseline;
+}
+.navbar-div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.img-container {
+    position: relative;
+    text-align: center;
+}
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: end;
+    color: rgb(22, 22, 57);
+  }
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 10px;
+}
+.nav-link:hover {
+    color: rgb(24, 24, 37)
+}
+.logo {
+    max-width: 50px;
+    max-height: 50px;
+}
+button {
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+.calendario-section {
+    margin: 30px 0;
+}
+.calendario-container {
+    display: flex;
+    justify-content: center;
+}
+.calendario {
+    width: 1000px;
+    height: 100vh;
+    
+}
+
+.feriados {
+    font-size: 40px;
+    font-weight: bolder;
+}
+.notas {
+    margin-bottom: 50px;
+}
+.calendario-title {
+    font-size: 30px;
+}

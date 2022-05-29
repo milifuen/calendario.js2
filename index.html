@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/main.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/main.min.js"></script>
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/locales-all.min.js'></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Organizador</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav">
+                <li>
+                    <a href="index.html">
+                        <img src="images/1200px-Greek_lc_delta.svg.png" alt="" class="logo">
+                    </a>
+                </li>
+                <div class="navbar-div">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre nosotros</a>
+                      </li>
+                </div>
+                
+                
+              </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Organizador</h1>
+        <div class="img-container">
+            <img src="images/Captura.JPG" alt="" class="landing-img">
+            <div class="bottom-right">Organizá tu<br>vida.</div>
+
+        </div>
+        <section class="calendario-section">
+            <div class="calendario-container">
+                <div id="calendar" class="calendario"></div>
+            </div>
+            
+        </section>
+        
+        <section>
+            <div>
+                <p class="feriados">Feriados importantes:</p>
+                <ul id="listado"></ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+  <script src="js/eventos.js"></script> 
+ 
+
+</body>
+</html>

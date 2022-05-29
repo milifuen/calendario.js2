@@ -1,0 +1,13 @@
+[
+    {"title": "Año nuevo","start": "2022-01-01"},
+    {"title": "Carnaval","start": "2022-02-28"},
+    {"title": "Carnaval","start": "2022-03-01"},
+    {"title": "Día Nacional de la Memoria por la Verdad y la Justicia","start": "2022-03-24"},
+    {"title": "Día del Veterano y de los Caídos en la Guerra de Malvinas","start": "2022-04-02"},
+    {"title": "Viernes Santo","start": "2022-04-15"},
+    {"title": "Día del trabajador","start": "2022-05-01"},
+    {"title": "Día de la Revolución de Mayo","start": "2022-05-25"},
+    {"title": "Paso a la Inmortalidad del General Manuel Belgrano","start": "2022-06-20"},
+    {"title": "Día de la independencia","start": "2022-07-09"},
+    {"title": "Navidad","start": "2022-12-25"}
+  ]
