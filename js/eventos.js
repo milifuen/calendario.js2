@@ -82,7 +82,8 @@ document.addEventListener('DOMContentLoaded', function() {
           content: "input",
         })
         .then((value) => {
-          let dateCalendario = info.dateStr
+          if(value != null) {
+            let dateCalendario = info.dateStr
           let EvID = Date.now()
           console.log("usted tiene", value, "el", dateCalendario)
           calendar.addEvent({
@@ -94,6 +95,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const eventosObj = {title: value, start: dateCalendario, id: EvID}
         const eventosJson = JSON.stringify(eventosObj)
         localStorage.setItem(EvID, eventosJson)
+          }
+          
 
         });
       

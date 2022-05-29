@@ -96,3 +96,10 @@ h1 {
 .calendario-title {
     font-size: 30px;
 }
+.start-container {
+    display: flex;
+    justify-content: center;
+}
+.about-us {
+    margin-top: 50px;
+}
