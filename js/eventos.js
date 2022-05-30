@@ -1,5 +1,6 @@
 
 let eventoArray = [] /////
+const emptyString = ""
 let lsLongitud = localStorage.length
 console.log(lsLongitud)
 
@@ -11,10 +12,10 @@ fetch('https://raw.githubusercontent.com/milifuen/json/main/feriados.json')
     html = ""
     data.forEach(feriado => {
       html += `
-      <li> 
+      <li class = "feriado-li" > 
           <h4>${feriado.title}</h4>
           
-          <p>${feriado.start}</p>
+          <p class= "feriado-txt">${feriado.start}</p>
           <br>
       </li>`
 
@@ -50,7 +51,14 @@ document.addEventListener('DOMContentLoaded', function() {
         
     
       ],
-
+      eventDidMount: function(info) {
+        var tooltip = new Tooltip(info.el, {
+          title: info.event.title,
+          placement: 'top',
+          trigger: 'hover',
+          container: 'body'
+        });
+      },
       eventClick: function(info) {
           const eventid = info.event.id;
           console.log(eventid)
@@ -82,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
           content: "input",
         })
         .then((value) => {
-          if(value != null) {
+          if(value != null && value != emptyString) {
             let dateCalendario = info.dateStr
           let EvID = Date.now()
           console.log("usted tiene", value, "el", dateCalendario)

@@ -16,7 +16,11 @@
     <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/main.min.js"></script>
     <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/locales-all.min.js'></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <title>Organizador</title>
+  
+    
+<script src='https://unpkg.com/popper.js/dist/umd/popper.min.js'></script>
+<script src='https://unpkg.com/tooltip.js/dist/umd/tooltip.min.js'></script>
+    <title>Organizador.js</title>
 </head>
 <body>
     <header>
@@ -49,7 +53,7 @@
         </div>
         <div class="start-container">
             <div class="start">
-                <h2 class="howto">Cómo comenzar usando Organizador.js</h2>
+                <h2 class="howto">Cómo comenzar a usar Organizador.js</h2>
                 <p>1. Para agregar su evento solo haga click en el cuadrante correpondiente a la fecha del acontecimiento</p>
                 <p>2. Ingrese el nombre del evento</p>
                 <p>3. Para borrar un evento haga click en el mismo (los feriados solo se borran en la sesión actual)</p>
@@ -64,7 +68,7 @@
         </section>
         
         <section>
-            <div>
+            <div class="feriados-container">
                 <p class="feriados">Feriados importantes:</p>
                 <ul id="listado"></ul>
             </div>
